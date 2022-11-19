@@ -1,0 +1,28 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .gambar {
+        width: 500px;
+        height: 500px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+.p-2:hover {
+        transform: scale(1.1);
+    }
+ 
+.p-1:hover{
+    transform: scale(1.05);
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {  }
