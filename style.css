@@ -19,13 +19,9 @@
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {  }
+@media query (max-width: 992px) {  }
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {  }
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (max-width: 1400px) {  }
 
 * {
     box-sizing: border-box;
@@ -33,7 +29,7 @@
 }
 
 #contact {
-    background: #057705;
+    background: #28a745;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +62,7 @@
 .left {
     flex: 1;
     height: 480px;
-    background-color: rgb(17, 99, 1);
+    background-color: #28a745;
 }
 
 
@@ -125,13 +121,13 @@ textarea {
 
 input:focus,
 textarea:focus {
-    outline: 1px solid #025f02;
+    outline: 1px solid #0;
 }
 
 button {
     border-radius: 20px;
-    border: 1px solid #257400;
-    background-color: #057705;
+    border: 1px solid #28a745;
+    background-color: #28a745;
     color: aliceblue;
     font-size: 12px;
     font-weight: bold;
