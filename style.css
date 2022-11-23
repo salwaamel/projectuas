@@ -19,7 +19,20 @@
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media query (max-width: 992px) {  }
+@media (max-width: 576px) {
+
+    .reponsif (
+    width:50px;
+    
+    ) 
+    
+@media (max-width: 768px) {
+
+    .reponsif (
+    width:80px;
+  
+    
+    ) 
 
 
 
@@ -43,7 +56,7 @@
 
 #c_contact {
     padding-left: 0px;
-    background-color: white;
+    background-color:  #28a745;
     border-radius: 5px;
     box-shadow: 0 14px 28px rgba(0,0, 0, 0.25)
     , 0 10px 10px rgba(0,0,0,0.22);
@@ -70,7 +83,7 @@
     display: flex;
     flex: 1;
     height: 460px;
-    background-color: aliceblue;
+    background-color:  #28a745;
     justify-content: center;
     align-items: center;
 }
